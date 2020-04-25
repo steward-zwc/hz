@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hz.iml" filepath="$PROJECT_DIR$/.idea/hz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hz-api-gateway/hz-api-gateway.iml" filepath="$PROJECT_DIR$/hz-api-gateway/hz-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hz-common/hz-common.iml" filepath="$PROJECT_DIR$/hz-common/hz-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hz-item/hz-item.iml" filepath="$PROJECT_DIR$/hz-item/hz-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hz-item/hz-item-interface/hz-item-interface.iml" filepath="$PROJECT_DIR$/hz-item/hz-item-interface/hz-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hz-item/hz-item-service/hz-item-service.iml" filepath="$PROJECT_DIR$/hz-item/hz-item-service/hz-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hz-registry/hz-registry.iml" filepath="$PROJECT_DIR$/hz-registry/hz-registry.iml" />
+    </modules>
+  </component>
+</project>

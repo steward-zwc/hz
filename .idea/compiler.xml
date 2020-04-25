@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hz-registry" />
+        <module name="hz-item-interface" />
+        <module name="hz-common" />
+        <module name="hz-api-gateway" />
+        <module name="hz-item-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hz" target="1.8" />
+      <module name="hz-api-gateway" target="1.8" />
+      <module name="hz-common" target="1.8" />
+      <module name="hz-item" target="1.8" />
+      <module name="hz-item-interface" target="1.8" />
+      <module name="hz-item-service" target="1.8" />
+      <module name="hz-registry" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hz" options="" />
+      <module name="hz-api-gateway" options="-parameters" />
+      <module name="hz-common" options="-parameters" />
+      <module name="hz-item" options="-parameters" />
+      <module name="hz-item-interface" options="-parameters" />
+      <module name="hz-item-service" options="-parameters" />
+      <module name="hz-registry" options="-parameters" />
+    </option>
+  </component>
+</project>
