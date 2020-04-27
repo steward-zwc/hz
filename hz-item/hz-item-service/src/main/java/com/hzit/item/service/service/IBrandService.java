@@ -10,4 +10,8 @@ public interface IBrandService {
     PageResult<Brand> queryBrandByPageAndSort(String key, Long page, Long rows, String sortBy, Boolean desc);
 
     int saveBrand(Brand brand, List<Integer> cids);
+
+    int deleteBrand(Long brandId);
+
+    int updateBrand(Brand brand, List<Integer> cids);
 }

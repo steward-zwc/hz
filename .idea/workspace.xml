@@ -2,39 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80753be8-fc9e-4b2d-8a5a-7fa25aa0a1b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_tobato_fastdfs_client_1_26_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/hz-upload.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/src/main/java/com/hzit/upload/HzUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/src/main/java/com/hzit/upload/config/FastClientImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/src/main/java/com/hzit/upload/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/src/main/java/com/hzit/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/src/main/java/com/hzit/upload/service/IUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/src/main/java/com/hzit/upload/service/impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/target/classes/com/hzit/upload/HzUploadService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/target/classes/com/hzit/upload/config/FastClientImporter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/target/classes/com/hzit/upload/config/GlobalCorsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/target/classes/com/hzit/upload/controller/UploadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/target/classes/com/hzit/upload/service/IUploadService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hz-upload/target/classes/com/hzit/upload/service/impl/UploadServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hz-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hz-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/HzItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/HzItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/IBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/src/main/java/com/hzit/item/service/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/HzItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/HzItemService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/mapper/BrandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/IBrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/IBrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/ICategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/ICategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hz-item/hz-item-service/target/classes/com/hzit/item/service/service/impl/CategoryServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +99,7 @@
     <property name="project.structure.side.proportion" value="0.3816092" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Spring Boot.HzUploadService">
+  <component name="RunManager" selected="Spring Boot.HzItemService">
     <configuration name="HzApiGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hz-api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hzit.gateway.HzApiGateway" />
@@ -193,7 +179,7 @@
       <updated>1587541536214</updated>
       <workItem from="1587541541990" duration="292000" />
       <workItem from="1587541845400" duration="10583000" />
-      <workItem from="1587638731588" duration="55960000" />
+      <workItem from="1587638731588" duration="69919000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1587815556777</created>
@@ -209,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587816143619</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1587951846351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587951846352</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,81 +212,82 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587546124415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587546124415" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1587866797334">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1587960150233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587866797334" />
-    <state x="259" y="0" width="1043" height="501" key="CommitChangelistDialog2" timestamp="1587816139676">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587960150233" />
+    <state x="133" y="50" width="1043" height="501" key="CommitChangelistDialog2" timestamp="1587951837555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="259" y="0" width="1043" height="501" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587816139676" />
+    <state x="133" y="50" width="1043" height="501" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587951837555" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1587814364227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587814364227" />
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom" timestamp="1587881843783">
+    <state width="1323" height="420" key="GridCell.Tab.0.bottom" timestamp="1587966045466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587881843783" />
-    <state width="1323" height="148" key="GridCell.Tab.0.center" timestamp="1587881843782">
+    <state width="1323" height="420" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587966045466" />
+    <state width="1323" height="420" key="GridCell.Tab.0.center" timestamp="1587966045466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587881843782" />
-    <state width="1323" height="148" key="GridCell.Tab.0.left" timestamp="1587881843781">
+    <state width="1323" height="420" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587966045466" />
+    <state width="1323" height="420" key="GridCell.Tab.0.left" timestamp="1587966045464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587881843781" />
-    <state width="1323" height="148" key="GridCell.Tab.0.right" timestamp="1587881843782">
+    <state width="1323" height="420" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587966045464" />
+    <state width="1323" height="420" key="GridCell.Tab.0.right" timestamp="1587966045466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587881843782" />
-    <state width="1323" height="148" key="GridCell.Tab.1.bottom" timestamp="1587881843214">
+    <state width="1323" height="420" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587966045466" />
+    <state width="1323" height="420" key="GridCell.Tab.1.bottom" timestamp="1587966044727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587881843214" />
-    <state width="1323" height="148" key="GridCell.Tab.1.center" timestamp="1587881843213">
+    <state width="1323" height="420" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587966044727" />
+    <state width="1323" height="420" key="GridCell.Tab.1.center" timestamp="1587966044727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587881843213" />
-    <state width="1323" height="148" key="GridCell.Tab.1.left" timestamp="1587881843212">
+    <state width="1323" height="420" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587966044727" />
+    <state width="1323" height="420" key="GridCell.Tab.1.left" timestamp="1587966044726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587881843212" />
-    <state width="1323" height="148" key="GridCell.Tab.1.right" timestamp="1587881843213">
+    <state width="1323" height="420" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587966044726" />
+    <state width="1323" height="420" key="GridCell.Tab.1.right" timestamp="1587966044727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587881843213" />
-    <state width="1323" height="148" key="GridCell.Tab.2.bottom" timestamp="1587881843215">
+    <state width="1323" height="420" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587966044727" />
+    <state width="1323" height="420" key="GridCell.Tab.2.bottom" timestamp="1587966044730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587881843215" />
-    <state width="1323" height="148" key="GridCell.Tab.2.center" timestamp="1587881843214">
+    <state width="1323" height="420" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587966044730" />
+    <state width="1323" height="420" key="GridCell.Tab.2.center" timestamp="1587966044729">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1587881843214" />
-    <state width="1323" height="148" key="GridCell.Tab.2.left" timestamp="1587881843214">
+    <state width="1323" height="420" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1587966044729" />
+    <state width="1323" height="420" key="GridCell.Tab.2.left" timestamp="1587966044728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1587881843214" />
-    <state width="1323" height="148" key="GridCell.Tab.2.right" timestamp="1587881843215">
+    <state width="1323" height="420" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1587966044728" />
+    <state width="1323" height="420" key="GridCell.Tab.2.right" timestamp="1587966044730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="148" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1587881843215" />
+    <state width="1323" height="420" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1587966044730" />
     <state x="-6" y="12" key="SettingsEditor" timestamp="1587815475334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-6" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587815475334" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587816163569">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587951877924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587816163569" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587951877924" />
     <state x="359" y="102" width="647" height="524" key="find.popup" timestamp="1587645243081">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

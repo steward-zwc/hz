@@ -9,6 +9,7 @@ import com.hzit.item.service.mapper.BrandMapper;
 import com.hzit.item.service.service.IBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -51,6 +52,33 @@ public class BrandServiceImpl implements IBrandService {
                 //在插入之后直接调用getId()就会获得回显的id
                 brandMapper.saveBrandCategory(brand.getId(), cidlong);
             }
+        }
+        return row;
+    }
+
+    @Override
+    @Transactional
+    public int deleteBrand(Long brandId) {
+        //1.先从品牌分类的关系表中把对应的关系删除
+        int row = brandMapper.deleteBrandCategory(brandId);
+        //2.再从品牌表中把该品牌删除
+        if(row != 0){
+            brandMapper.deleteById(brandId);
+        }
+        return row;
+    }
+
+    @Override
+    @Transactional
+    public int updateBrand(Brand brand, List<Integer> cids) {
+        //1.先把品牌分类关系表中的对应关系删除
+        brandMapper.deleteBrandCategory(brand.getId());
+        //2.修改品牌表中的信息
+        int row = brandMapper.updateById(brand);
+        //3.再在品牌分类关系表中添加对应关系
+        for (Integer cid : cids) {
+            long cidlong = cid;
+            brandMapper.saveBrandCategory(brand.getId(), cidlong);
         }
         return row;
     }

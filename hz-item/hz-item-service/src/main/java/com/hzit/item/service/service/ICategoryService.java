@@ -11,4 +11,6 @@ public interface ICategoryService {
      * @return
      */
     List<Category> findCategoryListByPid(Long pid);
+
+    List<Category> findListByBid(Long bid);
 }

@@ -4,10 +4,7 @@ import com.hzit.common.PageResult;
 import com.hzit.item.api.bean.Brand;
 import com.hzit.item.service.service.IBrandService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,9 +25,23 @@ public class BrandController {
         return pageResult;
     }
 
-    @PostMapping("/add")
+    @PostMapping({"", "/"})
     public int addBrand(Brand brand, @RequestParam("cids") List<Integer> cids) {
         int row = brandService.saveBrand(brand, cids);
+        return row;
+    }
+
+    @PutMapping({"", "/"})
+    public int updateBrand(Brand brand, @RequestParam("cids") List<Integer> cids){
+        int row = brandService.updateBrand(brand, cids);
+        return row;
+    }
+
+    @GetMapping("/delete")
+    public int deleteBrand(Long brandId)  {
+        int row = brandService.deleteBrand(brandId);
+        // 如果没删除成功，人为的抛出一个异常
+
         return row;
     }
 }
