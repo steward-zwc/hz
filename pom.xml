@@ -8,6 +8,7 @@
         <module>hz-api-gateway</module>
         <module>hz-item</module>
         <module>hz-common</module>
+        <module>hz-upload</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

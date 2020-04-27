@@ -29,8 +29,7 @@ public class BrandController {
     }
 
     @PostMapping("/add")
-    public int addBrand(@RequestParam("brand") Brand brand,
-                        @RequestParam("cids") List<Integer> cids) {
+    public int addBrand(Brand brand, @RequestParam("cids") List<Integer> cids) {
         int row = brandService.saveBrand(brand, cids);
         return row;
     }

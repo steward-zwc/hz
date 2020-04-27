@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/hz-item/hz-item-interface/hz-item-interface.iml" filepath="$PROJECT_DIR$/hz-item/hz-item-interface/hz-item-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/hz-item/hz-item-service/hz-item-service.iml" filepath="$PROJECT_DIR$/hz-item/hz-item-service/hz-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hz-registry/hz-registry.iml" filepath="$PROJECT_DIR$/hz-registry/hz-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hz-upload/hz-upload.iml" filepath="$PROJECT_DIR$/hz-upload/hz-upload.iml" />
     </modules>
   </component>
 </project>

@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hz-registry" />
+        <module name="hz-upload" />
         <module name="hz-item-interface" />
-        <module name="hz-common" />
         <module name="hz-api-gateway" />
         <module name="hz-item-service" />
+        <module name="hz-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="hz-item-interface" target="1.8" />
       <module name="hz-item-service" target="1.8" />
       <module name="hz-registry" target="1.8" />
+      <module name="hz-upload" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +34,7 @@
       <module name="hz-item-interface" options="-parameters" />
       <module name="hz-item-service" options="-parameters" />
       <module name="hz-registry" options="-parameters" />
+      <module name="hz-upload" options="-parameters" />
     </option>
   </component>
 </project>

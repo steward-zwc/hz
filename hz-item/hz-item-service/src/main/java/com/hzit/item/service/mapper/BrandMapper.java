@@ -7,5 +7,5 @@ import org.apache.ibatis.annotations.Param;
 
 public interface BrandMapper extends BaseMapper<Brand> {
     @Insert("INSERT INTO tb_category_brand(category_id, brand_id) VALUES(#{cid}, #{bid})")
-    public int saveBrandCategory(@Param("bid")Long bid, @Param("cid")Long cid);
+    int saveBrandCategory(@Param("bid")Long bid, @Param("cid")Long cid);
 }
